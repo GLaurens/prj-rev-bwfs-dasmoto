@@ -1,0 +1,67 @@
+/*-- General CSS --*/
+html {
+font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3, a{
+    font-weight: bold;
+}
+
+/*-- Heading --*/
+
+h1{
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+text-align: center;
+font-size: 100px;
+color: Khaki;
+margin-top: 40px;
+margin-bottom: 40px;
+padding-top:60px;
+padding-bottom:60px;
+}
+
+/*-- Navigation --*/
+nav ul {
+padding-left: 15px;
+}
+nav ul li {
+  list-style-type: none;
+  display:inline-flex;
+  padding-right: 30px;
+}
+nav ul li a {
+text-decoration: none;
+}
+
+nav ul li a:hover {
+color: Khaki;
+}
+
+/*-- Product Sections --*/
+
+.product h2 {
+    color: white;
+    font-size: 32px;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:4px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+#brush {
+  background-color:MediumSpringGreen;
+}
+
+#frame {
+  background-color:LightCoral;
+}
+
+#paint {
+  background-color:skyblue;
+}
+
+.price {
+  font-weight: bold;
+  color:blue;
+}
